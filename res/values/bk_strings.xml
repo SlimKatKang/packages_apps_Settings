@@ -36,4 +36,14 @@
     <string name="device_front_camera">Front facing camera</string>
     <!-- About device Screen, hardware info, screen res -->
     <string name="device_screen_resolution">Screen resolution</string>
+    <!-- Statusbar netstat -->
+    <string name="status_bar_network_title">Network traffic</string>
+    <string name="status_bar_show_network_stats_title">Show network speeds</string>
+    <string name="status_bar_network_stats_update_title">Update frequency</string>
+    <string name="status_bar_network_stats_color_title">Network speeds text color</string>
+    <string name="time_0_5_seconds">0.5 s</string>
+    <string name="time_1_second">1 s</string>
+    <string name="time_2_seconds">2 s</string>
+    <string name="time_5_seconds">5 s</string>
+
 </resources>
