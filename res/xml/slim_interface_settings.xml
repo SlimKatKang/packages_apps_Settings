@@ -34,4 +34,11 @@
         android:fragment="com.android.settings.slim.StatusBar"
         android:title="@string/status_bar_title" />
 
+    <PreferenceScreen
+        android:id="@+id/halo_settings"                
+        android:title="@string/halo_settings_title"
+	android:summary="@string/halo_settings_summary"
+	android:icon="@drawable/ic_settings_halo"
+	android:fragment="com.android.settings.slim.Halo" />
+
 </PreferenceScreen>
