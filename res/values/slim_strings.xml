@@ -789,10 +789,15 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="title_tile_expanded_desktop">Expanded desktop</string>
     <string name="title_tile_music">Music</string>
     <string name="title_tile_reboot">Reboot</string>
-    <string name="tiles_reset_message">Restore the default displayed tiles and layout?</string>
+    <string name="dynamic_tile_ime_switcher">IME switcher</string>
+    <string name="dynamic_tile_usb_tether">USB tether</string>
+    <string name="dynamic_tile_alarm">Alarm</string>
+    <string name="dynamic_tile_bugreport">Bugreport</string>
+    <string name="dynamic_tiles_title">Dynamic tiles</string>
+    <string name="tiles_reset_message">Reset displayed tiles and layout to default?</string>
     <string name="disable_qs">Quick settings are disabled</string>
     <string name="disable_qs_message">All tiles were removed. Quick settings are disabled.\n\nTo enable add a tile.</string>
-    <string name="help_qs_message">To add a quick settings tile, press the Add button and choose the tile you would like. To rearrange your tiles, longpress the tile and drag it into the position you want. If you want to delete a tile, drag it to the delete button which appears while dragging the tile.\n\nTo disable quick settings, remove all tiles.</string>
+    <string name="help_qs_message">To add a quick settings tile, press the Add button and choose the tile you would like. To rearrange your tiles, longpress the tile and drag it into the position you want. If you want to delete a tile, drag it to the delete button which appears while dragging the tile.\n\nTo setup dynamic tiles press the respective icon on the top right of the screen\n\nTo disable quick settings, remove all tiles.</string>
 
     <!-- QuickSettings style options -->
     <string name="quicksettings_tiles_style">Style</string>
@@ -872,6 +877,41 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
     <string name="app_halo_label_black">Blacklist from HALO</string>
     <string name="app_halo_label_white">Whitelist from HALO</string> 
+
+    <!-- Stylus Gestures -->
+    <string name="gestures_settings_title">Stylus gestures</string>
+    <string name="category_spen_title">Stylus gestures</string>
+    <string name="enable_subcat_title">Stylus</string>
+    <string name="enable_spen_title_head">Enable stylus gestures</string>
+    <string name="enable_spen_summary_head">Launch custom actions with stylus button swipe gestures. Warning: apps will not be able to receive input fired by holding the stylus button</string>
+    <string name="gestures_subcat_title">Gestures</string>
+    <string name="gestures_left_spen_title_head">Left swipe</string>
+    <string name="gestures_left_spen_summary_head">Launch custom action on left swipe</string>
+    <string name="gestures_right_spen_title_head">Right swipe</string>
+    <string name="gestures_right_spen_summary_head">Launch custom action on right swipe</string>
+    <string name="gestures_up_spen_title_head">Up swipe</string>
+    <string name="gestures_up_spen_summary_head">Launch custom action on up swipe</string>
+    <string name="gestures_down_spen_title_head">Down swipe</string>
+    <string name="gestures_down_spen_summary_head">Launch custom action on down swipe</string>
+    <string name="gestures_long_spen_title_head">Long press</string>
+    <string name="gestures_long_spen_summary_head">Launch custom action on long press</string>
+    <string name="gestures_double_spen_title_head">Double tap</string>
+    <string name="gestures_double_spen_summary_head">Launch custom action on double tap</string>
+
+    <!-- Gestures Options -->
+    <string name="gestures_action_empty">No action</string>
+    <string name="gestures_action_home">Emulate home key</string>
+    <string name="gestures_action_back">Emulate back key</string>
+    <string name="gestures_action_menu">Emulate menu key</string>
+    <string name="gestures_action_search">Invoke search</string>
+    <string name="gestures_action_recent">Recent apps</string>
+
+    <!-- stylus gestures support -->
+    <string name="stylus_app_not_installed">%s is not installed</string>
+
+    <!-- Stylus Icon -->
+    <string name="stylus_icon_enabled_title">Show icon when using stylus</string>
+    <string name="stylus_icon_enabled_summary">Show the pointer icon while using stylus</string>
 
 </resources>
 
