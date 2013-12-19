@@ -35,8 +35,8 @@ import java.util.List;
 public class AdvancedSettings extends SettingsPreferenceFragment
         implements OnPreferenceChangeListener {
 
-    private static final String PREF_DEVICESETTINGS_APP = "devicesettings_app";
     private static final String PREF_MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
+    private static final String PREF_DEVICESETTINGS_APP = "devicesettings_app";
 
     private Context mContext;
 
@@ -62,17 +62,20 @@ public class AdvancedSettings extends SettingsPreferenceFragment
         if (!deviceSettingsAppExists()) {
             getPreferenceScreen().removePreference(mDeviceSettingsApp);
         }
+
     }
 
     private boolean deviceSettingsAppExists() {
         Intent intent = mDeviceSettingsApp.getIntent();
         if (intent != null) {
-            PackageManager pm = mContext.getPackageManager();
+            PackageManager pm = getActivity().getPackageManager();
             List<ResolveInfo> list = pm.queryIntentActivities(intent, PackageManager.GET_META_DATA);
             int listSize = list.size();
             return (listSize > 0) ? true : false;
+
         }
         return false;
+
     }
 
     @Override
